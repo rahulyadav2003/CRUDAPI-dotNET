@@ -41,8 +41,13 @@ namespace CRUDAPI.Controllers
         }
 
         [HttpPost]
-        public IActionResult AddStudent(AddStudentDto addStudentDto)
+        public IActionResult AddStudent([FromBody] AddStudentDto addStudentDto)
         {
+            if (!ModelState.IsValid)
+            {
+                return BadRequest(ModelState);
+            }
+
             var studentEntity = new Student()
             {
                 Name = addStudentDto.Name,
@@ -59,8 +64,14 @@ namespace CRUDAPI.Controllers
 
         [HttpPut]
         [Route("{id:guid}")]
-        public IActionResult UpdateStudent(Guid id, UpdateStudentDto updateStudentDto)
+        public IActionResult UpdateStudent(Guid id, [FromBody] UpdateStudentDto updateStudentDto)
         {
+
+            if (!ModelState.IsValid)
+            {
+                return BadRequest(ModelState);
+            }
+
             var student = dbContext.StudentDb.Find(id);
 
             if (student is null)
