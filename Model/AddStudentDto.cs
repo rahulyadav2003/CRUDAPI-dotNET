@@ -15,6 +15,7 @@ namespace CRUDAPI.Model
         [Phone(ErrorMessage = "Invalid phone number.")]
         public string Phone { get; set; }
 
+        [Required(ErrorMessage = "Enter Your Fees.")]
         [Range(0, double.MaxValue, ErrorMessage = "Fees must be a positive number.")]
         public decimal Fees { get; set; }
     }
