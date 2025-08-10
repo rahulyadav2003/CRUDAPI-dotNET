@@ -41,7 +41,7 @@ namespace CRUDAPI.Controllers
         }
 
         [HttpPost]
-        public IActionResult AddStudent([FromBody] AddStudentDto addStudentDto)
+        public IActionResult AddStudent(AddStudentDto addStudentDto)
         {
             if (!ModelState.IsValid)
             {
@@ -64,7 +64,7 @@ namespace CRUDAPI.Controllers
 
         [HttpPut]
         [Route("{id:guid}")]
-        public IActionResult UpdateStudent(Guid id, [FromBody] UpdateStudentDto updateStudentDto)
+        public IActionResult UpdateStudent(Guid id, UpdateStudentDto updateStudentDto)
         {
 
             if (!ModelState.IsValid)
