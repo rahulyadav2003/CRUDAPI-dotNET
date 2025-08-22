@@ -5,7 +5,7 @@ VisualStudioVersion = 17.14.36221.1
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CRUDAPI", "CRUDAPI.csproj", "{E14072A6-2522-45B1-BD33-D3C6D491AFDD}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CRUDAPI.Tests", "..\CRUDAPI.Tests\CRUDAPI.Tests.csproj", "{dc0dd641-8b7f-4540-bda1-c7e95717f94b}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CRUDAPI.Tests", "CRUDAPI.Tests\CRUDAPI.Tests.csproj", "{DC0DD641-8B7F-4540-BDA1-C7E95717F94B}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
