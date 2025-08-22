@@ -5,7 +5,7 @@ VisualStudioVersion = 17.14.36221.1
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CRUDAPI", "CRUDAPI.csproj", "{E14072A6-2522-45B1-BD33-D3C6D491AFDD}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CRUDAPI.Tests", "CRUDAPI.Tests\CRUDAPI.Tests.csproj", "{DC0DD641-8B7F-4540-BDA1-C7E95717F94B}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CRUDAPI.Tests", "CRUDAPI.Tests.csproj", "{DC0DD641-8B7F-4540-BDA1-C7E95717F94B}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -13,10 +13,6 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{E14072A6-2522-45B1-BD33-D3C6D491AFDD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{E14072A6-2522-45B1-BD33-D3C6D491AFDD}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{E14072A6-2522-45B1-BD33-D3C6D491AFDD}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{E14072A6-2522-45B1-BD33-D3C6D491AFDD}.Release|Any CPU.Build.0 = Release|Any CPU
 		{D53CC83D-BDA6-4043-A462-BD36F38A128C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{D53CC83D-BDA6-4043-A462-BD36F38A128C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D53CC83D-BDA6-4043-A462-BD36F38A128C}.Release|Any CPU.ActiveCfg = Release|Any CPU
